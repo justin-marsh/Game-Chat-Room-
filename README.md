@@ -1,5 +1,4 @@
 # Chat Room Web Application
-> Course: CSCI 2020U: Software Systems Development and Integration
 
 This web application provides a platform for users to connect and communicate with others through chat rooms. Users can easily join existing chat rooms or create new ones with a unique alphanumeric code assigned by the server. Each chat message is timestamped and displayed with the sender's username. The application also features a list of current chat rooms and an about page with information about the project and its creators. You can also use these chat rooms to play a fun game of rock, paper, scissors! You can also navigate to the Minesweeper tab and play a nice game of minesweeper.
 
@@ -32,9 +31,9 @@ To view information about the web application, such as group members, click the 
 
 ### Group Members
 
-- Justin Marsh - 100792009
-- Aidan Mason-Mondesire - 100821742
-- Arian Mohammadi Zerdeh-del - 100833625
+- Justin Marsh 
+- Aidan Mason-Mondesire 
+
 
 ## Screenshots
 
