@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chat & Games</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<header style="background-color: #3E3037;  padding-top: 10px; text-align: center; padding-bottom: 10px; width: 100%; font-family: 'Trebuchet MS', sans-serif; font-size: 24px; border: 4px solid black;"><b>Chat Server & Games</b></header>
+<div class="container" id="top" style="padding: 5px; display: inline-flex; background-color: #817D8B; border: 4px solid black;">
+  <a href="index.html">Chat Rooms</a>
+  <a href="about.html">About Us</a>
+  <a href="minesweeper.html">Minesweeper</a>
+</div>
+
+
+<body style="margin:0;">
+
+<!-- The chat room list-->
+<div class="container1" style="float: left; width: 20%; margin-bottom: 20px;  background-color: #575156; height: 625px; border: 4px solid black;">
+
+ <h2>List of Chat Rooms</h2>
+<div id="room" >
+
+</div>
+  <button id="btRoom" onclick="newRoom()" style=" display: block;  margin: 0 auto;  text-align: center;">CREATE NEW ROOM AND JOIN</button>
+  <button id="refresh" onclick="refreshRoomList()" style=" display: block;  margin: 0 auto;  text-align: center;">REFRESH LIST</button>
+
+</div>
+<style>
+  .room-code {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #136950;
+    text-align: center;
+    margin:10px;
+  }
+</style>
+
+
+<!-- The chat log and input area -->
+<div class="container2" style="float: left; width: 60%; margin-bottom: 20px;">
+
+<textarea title="Chat Log" id="log" readonly
+          style="display: block; width: 100%; height: 600px; resize: none; margin: 0; padding: 0; border: 0; float: right;
+     "> Join a room to start playing/chatting</textarea>
+  <input type="text"  title="Chat Input" id="input" style="display: block; height: 25px; width: 100%; border-width: 4px 0 4px 0;float: right; "
+         autofocus/>
+</div>
+
+<!-- images area -->
+<div class="container3" style="float:left; width: 20%; margin-bottom: 20px; height: 625px;background-color: #575156; border: 4px solid black; justify-content: center">
+  <div class="images">
+    <!-- images have the attribute hidden="hidden" until found to be true, then remove the hidden attribute to see the images  -->
+    <img src="images/ss.png" alt="scissors tie" id="ss" hidden="hidden">
+    <img src="images/rr.png" alt="rock tie" id="rr" hidden="hidden">
+    <img src="images/pp.png" alt="paper tie" id="pp" hidden="hidden">
+    <img src="images/sp.png" alt="sciccors beats paper" id="sp" hidden="hidden">
+    <img src="images/pr.png" alt="paper beats rock" id="pr" hidden="hidden">
+    <img src="images/rs.png" alt="rock beats scissors" id="rs" hidden="hidden">
+  </div>
+</div>
+
+
+
+<!-- Add your site or application content here -->
+<footer style="text-align: center; margin-top: 10px;  background-color: #3E3037; border: 4px solid black;">
+  <p style="margin-top: 10px;">Copyright &copy; CSCI 2020U - Winter 2023</p>
+</footer>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

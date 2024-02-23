@@ -1,0 +1,90 @@
+body {
+    background-color: #B58C9C;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-board {
+    display: inline-grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(30, 30px);
+    grid-gap: 2px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: teal;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cell.revealed {
+    background-color: #ffffff;
+    cursor: default;
+}
+
+.cell.mine {
+    background-color: red;
+}
+
+.cell.flag {
+    background-color: #ddd;
+    color: red;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.container a {
+    margin-right: 200px;
+
+}
+.container a:link{
+    text-decoration: none;
+}
+.container a:hover{
+    background-color: #ADACB5;
+}
+.container a:active{
+    background-color: #ADACB5;
+}
+
+a, header{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

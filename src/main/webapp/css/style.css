@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#room{
+
+}
+
+img{
+    width: 170px;
+    height: auto;
+    justify-content: center;
+}
+
+#log{
+    background: #B58C9C;
+    font-family: 'Trebuchet MS', sans-serif
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #B58C9C
+}
+
+a, header{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#nav1{
+    background-color: #D8D5DB;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    height:30px;
+    display: inline-block;
+}
+
+h3{
+    color : white;
+    text-align : center;
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #136950;
+}
+
+label{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+/* Table Styles */
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+#fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+#fl-table td, #fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+#fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+#fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+#fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+#fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+
+.row{
+    text-align: center;
+    border: 3px  white;
+}
+.p{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    font-color: white;
+    font-size: 18px;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+}
+
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.container a {
+    margin-right: 200px;
+
+}
+.container a:link{
+    text-decoration: none;
+}
+.container a:hover{
+    background-color: #ADACB5;
+}
+.container a:active{
+    background-color: #ADACB5;
+}
+
+
+
