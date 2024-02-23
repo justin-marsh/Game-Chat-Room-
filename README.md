@@ -5,7 +5,7 @@ This web application provides a platform for users to connect and communicate wi
 ## How to Use - Step-By-Step
 
 ### Cloning
-1. Open a git terminal (e.g. Git Bash) then copy and paste "git clone https://github.com/OntarioTech-CS-program/w23-csci2020u-project-team23.git".
+1. Open a git terminal (e.g. Git Bash) then copy and paste "git clone https://github.com/justin-marsh/Game-Chat-Room-".
 2. Open a development environment (e.g. IntelliJ) and open the cloned folder.
 3. Create a Glassfish using "domain1" as the Domain and use ":war exploded" as the artifact.
 4. Run the Glassfish and wait until deployment.
@@ -32,7 +32,8 @@ To view information about the web application, such as group members, click the 
 ### Group Members
 
 - Justin Marsh 
-- Aidan Mason-Mondesire 
+- Aidan Mason-Mondesire
+- Arian Mohammadi
 
 
 ## Screenshots
